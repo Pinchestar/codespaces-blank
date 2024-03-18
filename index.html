@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 
 <head>
     <meta charset="UTF.8">-
@@ -12,7 +12,7 @@
     <h1>Formwithout Semantic HTML</h1>
 
     <form>
-        <label for="fullName">full Name:</label>
+        <label for="fullName">Full Name:</label>
         <input type="text" id="fullName" name="fullName" required>
 
         <label for="email">Email:</label>
@@ -40,4 +40,82 @@
 </body>
 
 </html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF.8">-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With Semantic HTML</title>
+
+</head>
+<body>
+
+    <h1>Form With Semantic HTML</h1>
+
+     <form>
+        <section>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+        </section>
+
+        <section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </section>
+
+        <section>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required>
+        </section>
+
+        <section>
+         <label for="gender">Gender:</label>
+         <select id="gender" name="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+         </select>
+        </section>
+
+        <section>
+          <label>
+            <input type="checkbox" id="newsletter"name="newsletter">
+            subscribe to Newsletter
+          </label>
+        </section>
+
+        <section>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </section>
+
+        <button type="submit">Submit</button>
+     </form>
+
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
